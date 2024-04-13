@@ -21,16 +21,17 @@
         <a href="#" class="logo"><i class='bx bx-store'></i></i>Vasques Cosmetics</a>
 
         <ul class="navegação">
-            <li><a href="#">Home</a></li>
+            <div class="InputContainer">
+                <input placeholder="Procure aqui" id="input" class="input" name="text" type="text">
+                
+              </div>
             <li><a href="#">Produtos</a></li>
             <li><a href="#">Favoritos</a></li>
             <li><a href="#">Contato</a></li>
+            
         </ul><!--navegação-->
 
-        <div class="header-icons">
-            <i class='bx bx-cart'></i>
-            <div id="menu"><i class='bx bx-menu'></i></div>
-        </div><!--header-icons-->
+          
     </header>
 
     <section class="home">
@@ -40,11 +41,28 @@
 
         <div class="home-text">
 
-            <h1> Sua essência, <br> nosso encanto. </h1> 
+            <h1> Sua essência,<br> nosso encanto. </h1> 
             <h5>A melhor escolha pra você se sentir bem!</h5>
             <h4> Milion Gold</h4>
             <h3>R$ 120,00 </h3>
-            <a href="#" class="btn">Compre aqui</a>
+            <button class="cssbuttons-io-button">
+                Compre Aqui
+                <div class="icon">
+                  <svg
+                    height="24"
+                    width="24"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                      d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              
             
         </div><!--home-text-->
     </section><!--home-->
